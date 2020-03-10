@@ -29,7 +29,7 @@ class SpawnerCommand extends PluginCommand
     {
         parent::__construct("spawner", $plugin);
         $this->setUsage("/spawner <string:spawner> [int:count] [string:player]");
-        $this->setAliases(["burgerspawners"]);
+        $this->setAliases(["spawner"]);
         $this->setDescription("Burger Spawners Base Command");
         $this->setPermission("burgerspawners.command.spawner");
         $this->plugin = $plugin;
