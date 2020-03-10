@@ -28,7 +28,7 @@ class Main extends PluginBase
 {
 
     /** @var string */
-    public const PREFIX = C::BOLD . C::AQUA . "Burger" . C::LIGHT_PURPLE . "Spawners" . "> " . C::RESET;
+    public const PREFIX = C::BOLD . C::AQUA . "Spawners" . "> " . C::RESET;
 
     /**
      * @var Main
